@@ -1,5 +1,7 @@
 package ctof;
+
 import java.util.Scanner;
+
 public class CtoF {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class CtoF {
         
         System.out.println("digite o valor em graus Celcius: ");
         
-        c = in.nextInt();
+        c = in.nextDouble();
         
         f = (9*c + 160)/5;
         
